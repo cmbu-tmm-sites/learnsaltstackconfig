@@ -2,4 +2,4 @@
 
 ---
 
-Welcome to Learn Cloud Assembly!
+Welcome to Learn SaltStack!
