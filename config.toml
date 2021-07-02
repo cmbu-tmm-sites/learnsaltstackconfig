@@ -1,6 +1,6 @@
-baseURL = "https://learncloudassembly.github.io"
+baseURL = "https://learnsaltstackconfig.github.io"
 languageCode = "en-gb"
-title = "Learn Cloud Assembly"
+title = "Learn Salt Stack Config"
 theme = "hugo-theme-techdoc"
 # Required to get well formatted code blocks
 pygmentsUseClasses = true
@@ -12,12 +12,12 @@ enableGitInfo = true
     logo = "/images/cloud-assembly.png"
 
     # Source Code repository section
-    description = "put your description"
-    # github_repository = "https://github.com/learncodestream/learncodestream"
+    description = "Part of VMware vRealize Automation"
+    # github_repository = "https://github.com/cmbu-tmm-sites/learnsaltstackconfig"
 
     # Documentation repository section
     # documentation repository (set edit link to documentation repository)
-    github_doc_repository = "https://github.com/learncodestream/learncodestream"
+    github_doc_repository = "https://github.com/cmbu-tmm-sites/learnsaltstackconfig"
     github_doc_branch = "main"
 
     # Analytic section
@@ -29,7 +29,7 @@ enableGitInfo = true
     # Open Graph settings for each page are set on the front matter.
     # See https://gohugo.io/templates/internal/#open-graph
     # See https://gohugo.io/templates/internal/#twitter-cards
-    title = "Hugo Techdoc Theme"
+    title = "Learn Salt Stack Config"
     images = ["images/og-image.png"] # Open graph images are placed in `static/images`
 
     # Theme settings section
@@ -58,10 +58,10 @@ enableGitInfo = true
 
     # Algolia site search section
     # See https://www.algolia.com/doc/
-    algolia_search_enable = false
-    algolia_indexName = "hugo-demo-techdoc"
-    algolia_appId = "7W4SAN4PLK"
-    algolia_apiKey = "cbf12a63ff72d9c5dc0c10c195cf9128" # Search-Only API Key
+    # algolia_search_enable = false
+    # algolia_indexName = "hugo-demo-techdoc"
+    # algolia_appId = "7W4SAN4PLK"
+    # algolia_apiKey = "cbf12a63ff72d9c5dc0c10c195cf9128" # Search-Only API Key
 
 # Global menu section
 # See https://gohugo.io/content-management/menus/
