@@ -15,4 +15,4 @@ To use the Minion Keys workspace, click Minion Keys in the side menu. Minion Key
 - [Rejected](/Minion_Keys/Rejected)
 - [Denied](/Minion_Keys/Denied)
 
-Select the state for the keys that you are interested in viewing or managing. [Reports](/Reports/)
+Select the state for the keys that you are interested in viewing or managing. 
