@@ -14,3 +14,5 @@ Before you can accept a new minion key, you must first install the minion servic
 When a user logs in, the SaltStack Config user interface polls the server every 10 seconds for pending minion and Salt controller keys. If a pending key is found, the Minions Key workspace displays the key as pending and alerts the user. These alerts are global, which means you are alerted as you are accessing any workspace in SaltStack Config, not just the Minions Key workspace.
 
 Once a pending key is found, the user interface stops polling for that key type for the duration of the user’s session.
+
+You can also accept keys from the CLI on the Salt Master using the <a href="https://docs.saltproject.io/en/latest/ref/cli/salt-key.html">salt-key</a> command. 
