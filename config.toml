@@ -9,7 +9,7 @@ disablePathToLower = true
 enableGitInfo = true
 
 [params]
-    logo = "/images/cloud-assembly.png"
+    logo = "/images/saltstack-config.png"
 
     # Source Code repository section
     description = "Part of VMware vRealize Automation"
