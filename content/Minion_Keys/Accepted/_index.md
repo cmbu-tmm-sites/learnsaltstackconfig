@@ -16,3 +16,12 @@ When a user logs in, the SaltStack Config user interface polls the server every 
 Once a pending key is found, the user interface stops polling for that key type for the duration of the user’s session.
 
 You can also accept keys from the CLI on the Salt Master using the <a href="https://docs.saltproject.io/en/latest/ref/cli/salt-key.html">salt-key</a> command. 
+
+<code>salt-key -a minion1</code> or to accept all keys <code>salt-key -A</code>
+
+Reference: https://docs.saltproject.io/en/latest/ref/cli/salt-key.html
+
+Also keep in mind that keys can also be accepted automatically via a reactor setting or in the master configuration file.
+
+
+

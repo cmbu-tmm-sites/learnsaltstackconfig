@@ -9,7 +9,7 @@ Welcome to the Pillars Page!
 
 The Pillars workspace allows you to create and manage pillar data that is stored in SaltStack Config. Pillars are sets of data defined in Salt and passed through to minions. This allows confidential and targeted data to be securely sent only to relevant minions. 
 
-Pillar data is encrypted in teh SaltStack Config database and is not stored in plain text. It is also encrypted during transmission. 
+Pillar data is encrypted in the SaltStack Config database and is not stored in plain text. It is also encrypted during transmission. 
 
 Pillar data is written in json when using this pillar workspace.
 

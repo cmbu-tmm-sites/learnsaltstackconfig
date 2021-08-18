@@ -29,5 +29,9 @@ The dropdown will allow you to choose an environment or you can create your own 
 
 The path is the folder and file name where you want to store the file. So in example above the init.sls file will be created in the /base/apache folder.
 
+You can also run these state files from the CLI on the salt master that is connected to the SaltStack Config via the eAPI Plugin. From the CLI you can run a remote execution commmand to run the state file:
+
+<i>salt '*' state.apply apache saltenv=dev test=True</i>
+
 There are some state file examples and tips here as well <a href="https://blogs.vmware.com/management/2021/06/getting-started-with-saltstack-config-part-1-creating-state-files.html">Getting Started with SaltStack Config: State Files Blog</a>
 
