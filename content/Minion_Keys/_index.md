@@ -28,6 +28,8 @@ For security salt uses RSA and AES keys for minion registration and communicatio
 
 
 
+
+
 References:
 
 https://saltstack.gitlab.io/open/docs/salt-user-guide/topics/installation.html#
