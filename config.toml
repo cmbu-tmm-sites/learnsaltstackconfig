@@ -1,6 +1,6 @@
 baseURL = "https://learnsaltstackconfig.github.io"
 languageCode = "en-gb"
-title = "Learn Salt Stack Config"
+title = "Learn SaltStack Config"
 theme = "hugo-theme-techdoc"
 # Required to get well formatted code blocks
 pygmentsUseClasses = true
