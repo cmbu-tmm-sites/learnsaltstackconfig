@@ -1,6 +1,6 @@
 ---
 title: "Patching and Updating Windows with SaltStack"
-weight: 200
+weight: 100
 ---
 
 <h1 style="color:black;font-size:20px;">Patching and Updating Windows with SaltStack</h1>
