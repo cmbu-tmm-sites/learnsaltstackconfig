@@ -11,8 +11,8 @@ This section will go over how to patch and update Windows machines using SaltSta
 
 Within SaltStack you can write state files to modify local group policy or handles patching and much more. Lets look at a quick example of a local group policy state file. SaltStack allows you to place states in a folder /srv/salt or in SaltStack Config in the File Server.
 
-{{< img src="locgrppol.png" width="300" height="400">}}
-
+There are various examples here on how to create state files.
+https://docs.saltproject.io/en/latest/ref/states/all/salt.states.win_lgpo.html
 
 If you want to create a job to run the state go to the Jobs section of SaltStack Config.
 
