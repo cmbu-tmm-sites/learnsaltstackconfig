@@ -41,3 +41,4 @@ Once you have chosen the content you want then you can complete the policy creat
 
 Once the remediation scan is complete then you will need to rerun the assessement to see the final compliant report. 
 
+{{< img src="resultsofscan.png" width="500" height="700">}}
