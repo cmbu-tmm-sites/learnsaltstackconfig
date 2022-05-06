@@ -37,8 +37,7 @@ You may not want to run all the checks during the scan, so you can filter which 
 
 Once you have chosen the content you want then you can complete the policy creation and choose if you want to run the assessmnent, schedule it or just save the policy and run the assessments later. Once you run an assessment the system will report back which machines were found to have non-compliant and compliant checks associated with them. At that point you can choose to remediate the checks via the remediation button.
 
-{{< img src="remediatescan.png" width="500" height="700">}}
+
 
 Once the remediation scan is complete then you will need to rerun the assessement to see the final compliant report. 
 
-{{< img src="compliant.png" width="500" height="700">}}
