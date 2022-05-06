@@ -18,5 +18,17 @@ If you want to create a job to run the state go to the Jobs section of SaltStack
 
 {{< img src="jobwindowspolicy.png" width="400" height="500">}}
 
+<h1 style="color:black;font-size:20px;">Windows Patching & Updates</h1>
 
+SaltStack has a module for managing Windows Updates using the Windows Update Agent. Use the <a href="https://docs.saltproject.io/en/latest/ref/modules/all/salt.modules.win_wua.html">win_wua</a> modules to get a list of available patches and ensure that they are installed. Below is an example of a state file using either a GUID or KB to determine if the patch is installed.
+
+
+{{< img src="statefilepatch.png" width="400" height="500">}}
+
+The functions commonly used with win_wua are:
+
+- win_wua.get
+- win_wua.download
+- win_wua.install
+- win_wua.uninstall
 
